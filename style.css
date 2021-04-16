@@ -1,0 +1,180 @@
+.topic-1 {
+    margin: 1%;
+    padding: 10px;
+    height: 20vh;
+    z-index: 1;
+} 
+
+.topic-1 > img {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+
+p ,ul{
+  font-size: 25px
+}
+/* Flexbox  */
+
+.flex-container{
+    color: black;
+    height: 25vh;
+    display: flex;
+    background-color: skyblue;
+}
+
+.flex-container > div {
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/* ======= FLEX-DIRECTION======== */
+.flex-container-1{
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: skyblue;
+}
+.flex-container-1 > div {
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* ======= FLEX-WRAP======== */
+.flex-container-2{
+  color: black;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  background-color: skyblue;
+}
+.flex-container-2 > div {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+}
+/* ======= FLEX-FLOW======== */
+.flex-container-3{
+  color: black;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  background-color: skyblue;
+}
+.flex-container-3 > div {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+/* ======= FLEX-FLOW======== */
+.flex-container-3{
+  color: black;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  background-color: skyblue;
+}
+.flex-container-3 > div {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* ======= JUSTIFY-CONTENT ======== */
+.flex-container-4{
+  color: black;
+  display: flex;
+  justify-content: flex-end ;
+  background-color: skyblue;
+}
+.flex-container-4 > div {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* ======= ALIGN-ITEMS ======== */
+.flex-container-5{
+  color: black;
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  background-color: skyblue;
+}
+.flex-container-5 > div {
+  background-color: bisque;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* ======= ALIGN-CONTENT ======== */
+.flex-container-6{
+  color: black;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: skyblue;
+}
+.flex-container-6 > div {
+  background-color: bisque;
+  width: 40px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* ================Media Queries================= */
+
+.container{
+    margin: 0 50px;
+
+}
+.card1 {
+    background-color: rgb(70, 224, 245);
+    height: 20vh;
+    display: flex;
+}
+
+.resp img{
+  width: 500px;
+}
+
+@media only screen and (max-width: 782px) {
+
+    .card1 {
+      background-color: black;
+    }
+   
+}
+
+/* =====================KeyFrames================== */
+/* div {
+    position: relative;
+    animation: animName 10s infinite;
+} */
+  
+  /* @keyframes mymove {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px) }
+  } */
+/* 
+  @keyframes animName {
+    0% {
+      transform: translateX(0);
+    }
+    30% {
+      transform: translateX(100px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
